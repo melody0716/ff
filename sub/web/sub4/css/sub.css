@@ -1,0 +1,80 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {margin: 0 auto; padding: 0; font-family: '나눔스퀘어'; color: #333; }
+
+a {text-decoration: none; color: #333;}
+
+.main {margin: 0 auto; height: 501px; background-image: url(../images/visual2.png); color: #e5e5e5;}
+.main .header {background: linear-gradient(rgba(10, 16, 62, 0.6), rgba(22, 45, 98, 0.09)); height: 80px; position: static; top: 0;  margin: 0 auto; z-index: 2;}
+.main .header ul {width: 1194px; margin: 0 auto; }
+.main .header strong.logo{float: left; color: #d8dbef;}
+
+.main .header strong.logo {display: table; }
+.main .header .top_nav ul li a strong {display: block; padding-top: 25px;}
+.main .header .top_nav ul li a strong img {padding-right: 7px;}
+
+.main .header strong.logo {font-size: 25px; font-weight: 700;  }
+.main .header .top_nav ul {text-align: center; }
+.main .header .top_nav ul li {display: inline; margin-left: 30px; font-size: 20px; font-weight: 600; padding-right: 30px; }
+.main .header .top_nav ul li a span{float: right;}
+.main .header .top_nav ul li a {color: #d8dbef; }
+.main .header .top_nav ul li a:hover {color: #a4abc4;}
+.main .header .top_nav ul li a.l {font-weight: 400;}
+.main .header .top_nav ul li a.l:hover {color: #d8dbef;}
+
+/*top
+.top {width: 1194px; margin: 0 auto; margin-top: 20px;}
+.top ul li img {}
+.top ul li {display: inline-block; margin-right: 10px;}*/
+
+/*section*/
+section {width: 1194px; margin: 0 auto;}
+section h1 {font-size: 40px; font-weight: 600; text-align: center; }
+
+/*contents1*/
+.contents1 {padding-top: 80px; height: 200px; }
+.contents1 ul {border-bottom: 3px solid rgba(203, 203, 203, 0.51); height: 125px;}
+.contents1 h1 {margin-top: 8px; font-size: 40px; font-weight: 600; display: inline-block; float: left; margin-left: 190px; }
+.contents1 p {font-size: 20px; font-weight: 400; display: inline-block; margin-right: 190px; float: right; line-height: 1.5;}
+
+/*contents2*/
+.contents2 {height: 430px; margin-bottom: 200px;}
+.contents2 .weather {display: inline-block; text-align: center; float: left; margin-left: 180px;}
+.contents2 h1 {font-size: 40px; font-weight: 600; margin-top: 30px; }
+.contents2 ul li {font-size: 20px; line-height: 2;}
+.contents2 .rain {float: right; display: inline-block; text-align: center; margin-right: 130px;}
+
+
+/*contents3*/
+.contents3 {height: 1212px; margin-bottom: 200px;}
+.contents3 h1 {margin-bottom: 80px;}
+.contents3 ul li {display: inline-block;}
+.contents3 ul li {width: 510px; font-size: 20px; line-height: 1.8; margin-bottom: 70px;}
+.contents3 ul li p {margin-top: 15px; font-size: 22px; font-weight: 600;}
+.contents3 ul li.left {margin-left: 40px;}
+.contents3 ul li.right {float: right; margin-right: 40px;}
+
+
+/*contents4*/
+.contents4 {height: 530px; margin-bottom: 200px;}
+.contents4 h1 {margin-bottom: 80px; text-align: center;}
+.contents4 img {float: left; }
+.contents4 p {font-size: 20px; font-weight: 500; float: right; margin-right: 80px; display: inline-block; line-height: 1.8; margin-top: 130px;}
+.contents4 span1 {font-family : '나눔고딕'; font-weight: 300;}
+.contents4 span2 {display: inline-block; float: left; clear: both; margin-top: 20px; font-size: 18px; color: #7e7e7e; font-weight: 400;}
+
+
+/*footer*/
+
+
+.footer {background-color: #2E2E2E; color: #888888; font-size: 15px; width: 100%; height: 195px; }
+.footer .footer_left {width: 1194px; margin: 0 auto; text-align: left; padding-top: 55px;}
+.footer .footer_left ul li  {float: left; display: inline-block; line-height: 30px;}
+.footer .footer_right {width: 1194px; margin: 0 auto; text-align: right; }
+.footer .footer_right ul li  {display: inline-block; float: right; font-size: 25px; line-height: 40px; font-weight: 600;}
+.footer .footer_right .sns a {color: #939393; margin-left: 8px;}
+
+
+.footer strong.logo {display: table; }
+.footer a strong {display: block; color: #888888;}
+.footer a strong img {padding-right: 7px;}

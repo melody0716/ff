@@ -1,0 +1,274 @@
+body {
+   color: #1d1d1d; font-family: "나눔스퀘어_ac";
+    
+}
+
+.sidenav {
+  height: 1080px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: "나눔스퀘어_ac";  
+    box-shadow: 5px 0 10px rgba(38, 38, 38, 0.3);
+}
+.sidenav .logo {text-align: center; margin-top: 70px;}
+.sidenav .logo img {width: 126px; height: 26px; padding-right: 3px; }
+
+.sidenav a {
+  
+  text-decoration: none;
+  
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a.con {font-size: 18px; color: white; font-weight: 300;  margin-bottom: 70px; margin-left: 60px;}
+.sidenav a.camera {padding-top: 110px;}
+
+.sidenav a:hover {
+  color: white;
+    border-bottom: 2px solid #FFA101; padding-bottom: 15px;
+}
+.sidenav .line {border-bottom: solid 0.5px rgba(255, 170, 25, 0.49); width: 130px; height: 0.5px; margin: auto; padding-top: 30px;}
+.sidenav .closebtn {
+  position: absolute;
+  top: 34px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+    color: white;
+}
+.sidenav a.closebtn:hover {border: none;}
+.sidenav ul {margin-top: 80px;}
+.sidenav ul li {}
+.sidenav ul li a.first {padding-left: 40px;}
+.sidenav ul li a.icon {display: inline; padding-right: 28px;}
+.sidenav a.icon img {height: 20px; width: 20px; }
+
+.sidenav ul li a.icon:hover {border: none;}
+
+@media screen and (max-height: 600px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.header {margin: 0 auto; background-image: url(image/main3.png); background-repeat: no-repeat; height: 900px; width: 100%; font-family: "나눔스퀘어_ac";}
+.header .nav {width: 1460px;  margin: 0 auto; padding-top: 30px;}
+
+.header .nav ul li {display: inline; }
+.header .nav ul li a img {width: 25px; height: 25px; }
+.header .nav ul li a.middle img {height: 27px; width: 123px; margin-left: 644px; }
+
+.header .nav ul li a.right img {float: right; padding-left: 15px; padding-top: 5px;}
+
+.header .text {width: 1460px; height: 500px; margin: 0 auto; margin-top: 200px; }
+.header .text ul {width: 520px; float: right; }
+.header .text img {width: 240px; height: 70px;}
+.header .text h2 {font-size: 18px; font-weight: 600; margin-top: 45px;}
+.header .text p {font-size: 14px; line-height: 20px; margin-top: 35px; padding-bottom: 80px; color: rgba(0, 0, 0, 0.68);}
+
+.header .text ul li {float: left; }
+.header .text ul li h1 a{text-decoration: none; color: rgba(31, 31, 31, 0.82); font-size: 20px; font-weight: 600; padding: 16px 50px; border-radius: 40px; border: 0.5px solid rgba(36, 36, 36, 0.28);  background-color: #FFA101; box-shadow: 0 0 10px rgba(33, 33, 33, 0.34); }
+
+.header .text ul li h1 a:hover {color: #FFA101; background-color: rgba(0, 0, 0, 0.55); }
+.header .text ul li span {font-size: 18px; font-family: "나눔스퀘어"; margin-left: 50px; font-weight: 600; color: rgba(16, 16, 16, 0.63);}
+
+@media (max-width:600px) {
+    .header {background-image: url(image/header_m.png); width: 600px; }
+    .header .nav {width: 520px; margin: 0 auto;}
+    .header .nav ul {width: 520px;  }
+    .header .nav ul li {}
+    .header .nav ul li a.middle img {margin-left: 172px;}
+    .header .text {width: 520px; height: 340px; margin-top: 450px; padding-left: 80px;}
+    .header .text ul img {width: 160px; height: 47px;}
+    .header .text ul h2 {font-size: 15px; margin-top: 25px; font-weight: 600; color: rgba(23, 23, 23, 0.83); }
+    .header .text ul p {padding-bottom: 0; font-size: 12px; line-height: 17px; margin-top: 20px; margin-bottom: 50px;}
+    .header .text ul li h1 a {font-size: 18px; padding: 14px 40px;}
+    .header .text ul li span {font-size: 16px;}
+    
+}
+
+.contents01 {font-family: "나눔스퀘어_ac"; width: 100%;}
+
+.contents01 ul li {display: block; float: left;}
+.contents01 .line {width: 190px; border: 3px solid #FEA300;  margin-top: 180px;}
+.contents01 h3 {font-size: 25px; font-weight: 600; margin-top: 172px; margin-left: 25px;}
+.contents01 ul li.con01 {width: 76.04166%; margin: 0 auto;}
+.contents01 ul li.con01 img {float: right; margin-right: 55px;  margin-top: 180px;}
+
+.contents01 .text {width: 1460px; margin: 0 auto; }
+.contents01 .text ul {width: 700px;}
+.contents01 .text ul li {margin-left: 130px;}
+.contents01 .text ul li h1 img {width: 363px; margin-top: 100px; }
+.contents01 .text ul li h2 {font-size: 20px; font-weight: 550; margin-top: 65px; }
+.contents01 .text ul li p {font-size: 14px; line-height: 19px; margin-top: 25px;}
+.contents01 .text a img {width: 520px; margin-left: 170px; margin-top: 60px; }
+.contents01 ul li.con01_buy {margin-top: 85px;}
+.contents01 ul li a {text-decoration: none; font-size: 19px; font-weight: 550; color: #ffffff; padding: 16px 50px; background-color: #FEA300; border-radius: 40px; box-shadow: 0 0 5px rgba(155, 155, 155, 0.56); }
+.contents01 ul li a:hover {background-color: rgba(0, 0, 0, 0.83); color: #FEA300; }
+
+.contents01 .last ul  {width: 1460px; margin: 0 auto; margin-top: 80px; padding-bottom: 250px;}
+
+@media (max-width:600px) {
+    .contents01 {width: 100%; margin: 0 auto;}
+    .contents01 .line {margin-top: 60px; border: 2px solid #FEA300;}
+    .contents01 h3 {margin-top: 52px; font-size: 20px;}
+    .contents01 ul li.con01 {width: 600px; }
+    .contents01 ul li.con01 img {margin-top: 40px; margin-right: 50px; height: 40px;}
+    
+    .contents01 .text {width: 600px;}
+    .contents01 .text ul {}
+    .contents01 .text ul li {margin-left: 50px;}
+    .contents01 .text ul li h1 {width: 500px;}
+    .contents01 .text ul li h1 img {margin-top: 50px; height: 45px; width: 285px;}
+    .contents01 .text ul li h2 {font-size: 18px; margin-top: 50px;}
+    .contents01 .text ul li p {font-size: 13px;}
+    .contents01 .text ul li.con01_buy {margin-top: 70px;}
+    .contents01 .text ul li.con01_buy a {font-size: 18px; font-weight: 400; }
+    .contents01 .text a {width: 600px; }
+    .contents01 .text a img {width: 434px; height: 356px; margin: auto; margin-left: 83px; margin-top: 80px; }
+    .contents01 .last ul {margin-top: 10px; padding-bottom: 130px; padding-left: 40px; width: 600px; }
+    .contents01 .last ul img {height: 40px;}
+    
+}
+.contents02 {font-family: "나눔스퀘어_ac"; width: 100%;}
+.contents02 img {width: 43.56%; float: left;}
+.contents02 .text .line {border: 3px solid white; width: 190px; float: right; margin-top: 115px;}
+.contents02 .text ul {width: 56.25%; float: right; }
+.contents02 .text {background-color: #FEA300; width: 100%; height: 1180px; }
+.contents02 .text h3 {float: right; font-size: 25px; font-weight: 600; color: rgba(13, 13, 13, 0.75); margin-top: 107px; margin-right: 25px;}
+.contents02 .text h1 {font-size: 60px; font-weight: 600; padding-left: 200px; margin-top: 180px;}
+.contents02 .text h2 {font-size: 23px; font-weight: 300; padding-left: 200px; margin-top: 80px;}
+.contents02 .text p {font-size: 16px; line-height: 25px; padding-left: 200px; margin-top: 50px; margin-bottom: 100px;}
+.contents02 .text span a {text-decoration: none; margin-left: 200px; padding: 18px 60px; border-radius: 39px; border: 0.5px solid rgba(39, 39, 39, 0.33); box-shadow: 0 0 10px rgba(33, 33, 33, 0.34); font-size: 20px; font-weight: 600; color: rgba(18, 18, 18, 0.76);}
+.contents02 .text span a:hover {color: #FFA101; background-color: rgba(0, 0, 0, 0.55);}
+
+@media (max-width:900px) {
+    .contents02 img {width: 100%;  }
+    .contents02 .text {height: 620px; width: 900px; padding-top: 1020px;}
+    .contents02 .text .line {margin-top: 15px;}
+    .contents02 .text h3 {margin-top: 10px; font-size: 20px;}
+    .contents02 .text ul {width: 900px;}
+    .contents02 .text ul h1 {margin-top: 70px; padding-left: 64px; font-size: 40px;}
+    .contents02 .text ul h2 {font-size: 20px; padding-left: 64px; margin-top: 30px;}
+    .contents02 .text ul p {padding-left: 64px; font-size: 13px; line-height: 22px; margin-top: 40px; margin-bottom: 65px;}
+
+    .contents02 .text ul span a {font-size: 17px; padding: 18px 55px; margin-left: 64px; }
+}
+
+@media (max-width:600px) {
+    .contents02 img {width: 600px; height: 845px; }
+    .contents02 .text {height: 620px; width: 600px; padding-top: 890px;}
+    .contents02 .text .line {margin-top: 15px;}
+    .contents02 .text h3 {margin-top: 10px; font-size: 20px;}
+    .contents02 .text ul {width: 600px;}
+    .contents02 .text ul h1 {margin-top: 70px; padding-left: 64px; font-size: 40px;}
+    .contents02 .text ul h2 {font-size: 20px; padding-left: 64px; margin-top: 30px;}
+    .contents02 .text ul p {padding-left: 64px; font-size: 13px; line-height: 22px; margin-top: 40px; margin-bottom: 65px;}
+
+    .contents02 .text ul span a {font-size: 17px; padding: 18px 55px; margin-left: 64px; }
+    
+}
+
+.contents03 {font-family: "나눔스퀘어_ac"; width: 100%; }
+.contents03 .con03_top {width: 1920px;  margin-bottom: 30px; }
+.contents03 .con03_top .line {width: 190px; border: 3px solid #FEA300;  margin-top: 180px; float: left;}
+.contents03 .con03_top ul li h3 {font-size: 25px; font-weight: 600;  margin-left: 25px; margin-top: 170px; width: 1500px;}
+.contents03 .con03_top ul li {display: block; float: left; margin-bottom: 70px;}
+.contents03 .con03_left img { float: left;}
+.contents03 .con03 ul li {display: inline;   }
+.contents03 .con03 ul li.con03_1 img {width: 31.4%; }
+.contents03 .con03 ul li.con03_2 img {width: 36.6%;}
+.contents03 .con03 ul li.con03_3 img {width: 31.4%;}
+
+
+@media (max-width:1400px) {
+    
+    .contents03 .con03 ul li.con03_1 img {width: 31.1%; }
+    .contents03 .con03 ul li.con03_2 img {width: 36.2%;}
+    .contents03 .con03 ul li.con03_3 img {width: 31.1%;}
+}
+
+@media (max-width:600px) {
+    .contents03 .con03_top .line {margin-top: 60px; border: 2px solid #FEA300;}
+    .contents03 .con03_top ul li h3 {margin-top: 52px; font-size: 20px;}
+    .contents03 .con03 ul li.con03_1 img {width: 100%;}
+    .contents03 .con03 ul li.con03_2 img {width: 100%;}
+    .contents03 .con03 ul li.con03_3 img {width: 100%;}
+}
+
+
+.contents04 {width: 1460px; margin: 0 auto; font-family: "나눔스퀘어_ac"; height: 680px;}
+.contents04 .con04 {width: 100%;}
+.contents04 ul li {width: 20%; float: left; text-align: center; padding: 36px; }
+.contents04 .con04 ul li a p {}
+.contents04 .con04 ul li a img {margin-bottom: 50px; margin-top: 120px;}
+.contents04 .con04 a {text-decoration: none;}
+.contents04 .con04 a h2 {font-size: 22px; font-weight: 600; color: #FFAF1E;  margin-bottom: 20px;}
+.contents04 .con04 ul li {margin-bottom: 100px;}
+.contents04 .con04 a span {line-height: 25px; font-size: 16px;}
+
+@media (max-width:600px) {
+    .contents04 {width: 600px;  margin-top: 80px; height: 1000px;}
+    .contents04 .con04 {width: 100%;}
+    .contents04 ul li {width: 37%; float: left; text-align: center; padding: 30px; }
+    .contents04 .con04 ul li {margin-bottom: 10px;}
+    .contents04 .con04 ul li a img {margin-top: 0;  }
+    .contents04 .con04 a span {line-height: 25px; font-size: 15px;}
+}
+
+.contents05 {font-family: "나눔스퀘어_ac"; height: 700px; margin-bottom: 100px; width: 100%;}
+.contents05 .line {width: 190px; border: 3px solid #FEA300;  margin-top: 8px; }
+.contents05 h3 {font-size: 25px; font-weight: 600; /*margin-top: 172px;*/ margin-left: 25px; color: rgba(13, 13, 13, 0.75);}
+.contents05 .top {clear: both}
+.contents05 .top ul{height: 100px; margin-bottom: 30px;}
+.contents05 .top ul li {/*display: block; */float: left;}
+
+.contents05 .con_05 {height: 650px; width: 100%; margin: 0 auto;}
+.contents05 .con_05 ul li { float: left; width: 33.3333%; text-align: center; }
+.contents05 .con_05 ul li a {text-decoration: none; color: #1C1C1C; }
+.contents05 .con_05 ul li a h2 {text-decoration: none; font-size: 17px; font-weight: 540;  text-align: left; padding-left: 115px; line-height: 22px; position: absolute; padding-top: 485px; }
+.contents05 .con_05 ul li a span {text-decoration: none; font-size: 15px; font-weight: 300;}
+.contents05 .con_05 ul li img {position: static; border-radius: 34px; box-shadow: 0 0 8px rgba(155, 155, 155, 0.49); }
+.contents05 .con_05 ul li.con05_1 {text-align: right;}
+.contents05 .con_05 ul li.con05_1 h2 {padding-left: 205px;}
+.contents05 .con_05 ul li.con05_3 {text-align: left;}
+.contents05 .con_05 ul li.con05_3 h2 {padding-left: 35px;}
+
+@media (max-width:600px) {
+    .contents05 {height: 1760px;}
+    .contents05 .top ul{height: 50px; margin-bottom: 30px;}
+    .contents05 .con_05 ul li {width: 100%; margin-bottom: 30px;}
+    .contents05 .con_05 ul li.con05_1 {text-align: center;}
+    .contents05 .con_05 ul li.con05_1 h2 {padding-left: 115px;}
+.contents05 .con_05 ul li.con05_3 {text-align: center;}
+.contents05 .con_05 ul li.con05_3 h2 {padding-left: 115px;}
+}
+
+.footer {width: 100%; height: 220px;  font-family: "나눔스퀘어_ac"; background-color: #232323; color: #7B7B7B; }
+.footer .top {width: 76.04166%; margin: 0 auto; display: flex; }
+.footer .top ul {margin-top: 40px; }
+.footer .top ul li {padding: 0 42px; font-size: 14px;}
+.footer .top ul li a {text-decoration: none; color: #7B7B7B; }
+.footer .line {width: 76.04166%; border-bottom: 0.5px solid #555555; margin: 0 auto; margin-top: 40px; margin-bottom: 40px;}
+.footer .bottom {width: 76.04166%; margin: 0 auto;  }
+.footer .bottom ul li {text-align-last: center; width: 100%; font-size: 14px; padding-bottom: 10px; }
+.footer .top ul li {float: left; }
+
+@media (max-width:600px) {
+    .footer {clear: both; width: 100%;}
+    .contents05 h3 {font-size: 20px; font-weight: 600; /*margin-top: 172px;*/ margin-left: 25px; color: rgba(13, 13, 13, 0.75); padding-top: 2px;}
+    .footer .top {width: 76.041666%; }
+    .footer .top ul { margin-top: 40px;}
+    .footer .top ul li {padding: 0 6px; font-size: 12px;}
+    .footer .line {width: 76.041666%; border-bottom: 0.5px solid #555555; margin: 0 auto; margin-top: 30px; margin-bottom: 30px;}
+    .footer .bottom {width: 76.041666%; margin: 0 auto;  }
+    .footer .bottom ul li {text-align-last: center; width: 100%; font-size: 12px; padding-bottom: 10px; line-height: 15px;}
+    
+}

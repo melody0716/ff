@@ -1,8 +1,8 @@
 body {
-   color: #1d1d1d; font-family: "나눔스퀘어_ac";
+   color: #1d1d1d; font-family: "NanumSquare";
     
 }
-
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css)
 .sidenav {
   height: 1080px;
   width: 0;

@@ -1,10 +1,10 @@
 * {
     margin: 0 auto;
     padding: 0;
-    font-family: "나눔스퀘어_ac";
+    font-family: "NaumSquare";
     list-style: none;
 }
-
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css)
 
 .header { width: 1920px; height: 550px; }
 .header img.header {width: 1920px; height: 500px;}

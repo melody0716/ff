@@ -9,6 +9,7 @@
     font-family: 'NanumSquareAcl';
     font-family: 'NanumSquareAcr';
 }
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 body {font-family: 'NanumSquare'; width: 100%; padding: 0;}
 
 .main {

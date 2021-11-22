@@ -13,7 +13,7 @@
         #myBtn {
             display: none;
             position: fixed;
-            bottom: 50px;
+            bottom: 120px;
             right: 50px;
             z-index: 99;
             font-size: 18px;
@@ -22,9 +22,34 @@
             background-color: #7fbf64;
             color: white;
             cursor: pointer;
-            padding: 15px;
+            padding: 15px 20px;
             border-radius: 4px;
     }
+    .button2 {
+            position: absolute;
+            display: block;
+            opacity: 1;
+            z-index: 1;
+            padding: 16px 15px ;
+            background-color: #38a34f;
+            bottom: 50px;
+            right: 50px;
+            text-align: center;
+            border-radius: 4px;
+            transition: all .4s;
+            box-shadow: 0px 0px 5px #5a4a965d;
+            position: fixed;
+        }
+        h1 {
+            padding-top: 16.5px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: 'NanumSquare';
+            font-size: 18px;
+            transition: all .4s;
+        }
 
     </style>
 </head>
@@ -32,8 +57,13 @@
 
     <img src="img/s_sub55.jpg" alt="" style="width: 100%; margin: 0; padding: 0;">
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+    <div class="button2">
+      <a href="javascript:history.back()">Back</a>
+    </div>
     <script>
+      function goBack() {
+  window.history.back();
+}
         //Get the button
         var mybutton = document.getElementById("myBtn");
         

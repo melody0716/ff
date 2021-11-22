@@ -25,6 +25,21 @@
             transition: all .4s;
             box-shadow: 0px 0px 10px #000000ec;
         }
+        .button2 {
+            position: absolute;
+            display: block;
+            opacity: 1;
+            z-index: 1;
+            padding: 16px 15px ;
+            background-color: #3054a1;
+            bottom: 50px;
+            right: 50px;
+            text-align: center;
+            border-radius: 4px;
+            transition: all .4s;
+            box-shadow: 0px 0px 5px #5a4a965d;
+            position: fixed;
+        }
         a {
             text-decoration: none;
             color: rgb(255, 255, 255);
@@ -32,7 +47,7 @@
             font-size: 18px;
             transition: all .4s;
         }
-        a:hover {
+        .button a:hover {
             color: #00091b;
             font-weight: 700;
             transition: all .4s;
@@ -44,16 +59,16 @@
         #myBtn {
             display: none;
             position: fixed;
-            bottom: 50px;
+            bottom: 120px;
             right: 50px;
             z-index: 99;
             font-size: 18px;
             border: none;
             outline: none;
-            background-color: #0b3080;
+            background-color: #063495;
             color: white;
             cursor: pointer;
-            padding: 15px;
+            padding: 15px 20px;
             border-radius: 4px;
     }
 
@@ -64,10 +79,15 @@
         <a href="web/sub4/web2_main.html"><h1>웹사이트 바로가기</h1></a>
     </div>
     <img src="img/s_sub44.jpg" alt="" style="width: 100%; margin: 0; padding: 0;">
-
+    <div class="button2">
+      <a href="javascript:history.back()">Back</a>
+    </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <script>
+      function goBack() {
+  window.history.back();
+}
         //Get the button
         var mybutton = document.getElementById("myBtn");
         

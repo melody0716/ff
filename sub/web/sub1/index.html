@@ -6,12 +6,43 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
     <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="reset.css">
-
+<style>
+     @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+    .button2 {
+            position: absolute;
+            display: block;
+            opacity: 1;
+            z-index: 1;
+            padding: 16px 15px ;
+            background-color: #9389bd;
+            bottom: 50px;
+            right: 50px;
+            text-align: center;
+            border-radius: 4px;
+            transition: all .4s;
+           
+            position: fixed;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: 'NanumSquare';
+            font-size: 18px;
+            transition: all .4s;
+        }
+</style>
     
 </head>
 
 <body>
-  
+    <div class="button2">
+        <a href="javascript:history.back()">Back</a>
+      </div>
+      <script>
+          function goBack() {
+  window.history.back();
+}
+      </script>
    <div class="header" id="top">
       
        <div class="logo_icon">

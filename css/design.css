@@ -218,10 +218,16 @@ body {font-family: 'NanumSquare'; width: 100%; padding: 0; max-width: 1920px;}
     font-weight: 600;
 }
 
+.con1_right ul {
+    width: 100%;
+}
 .con1_right #skills li {
     display: inline-block;
     cursor: pointer;
+    
+    
 }
+
 .con1_right #skills span{
     font-size: 13pt;
     color: #0c2ae1;
@@ -230,6 +236,7 @@ body {font-family: 'NanumSquare'; width: 100%; padding: 0; max-width: 1920px;}
     text-align: center;
     padding: 0 25px;
     margin-top: 10px;
+    
     
 }
 #percent {
@@ -561,6 +568,63 @@ opacity: 5;}
     font-weight: 400;
     width: 100%;
 }
+.out {
+    opacity: 1;
+}
+.out1 {
+    position: relative;
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  .w3-hover-opacity {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  .out1:hover .w3-hover-opacity {
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  
+  .out1:hover .middle {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .out h1 {
+    color: #0c2ae1;
+    font-size: 15pt;
+    
+    margin-bottom: 0;
+    line-height: 1.4;
+    margin-top: 15px;
+  }
+  .out span {
+    background-color: #0c2ae1;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16pt;
+    font-weight: 700;
+    
+    
+  }
 
 /* ------------------ modal -------------------*/
 

@@ -81,13 +81,15 @@
                     </ul>
                     <h2>Contact</h2>
                     <p style="margin-bottom: 50px">melody010716@naver.com</p>
-                    <ul id="skills">
-                        <li style="padding-right:25px"><img src="img/aboutMe3.jpg" alt="" id="percent"><span>90%</span></li>
-                        <li style="padding-right:25px"><img src="img/aboutMe4.jpg" alt="" id="percent"><span>90%</span></li>
-                        <li style="padding-right:25px"><img src="img/aboutMe5.jpg" alt="" id="percent"><span>70%</span></li>
-                        <li style="padding-right:25px"><img src="img/aboutMe6.jpg" alt="" id="percent"><span>60%</span></li>
-                        <li><img src="img/aboutMe7.jpg" alt="" id="percent"><span>90%</span></li>
-                    </ul>
+                    <div class="percent">
+                        <ul id="skills">
+                            <li style="padding-right:25px"><img src="img/aboutMe3.jpg" alt="" id="percent"><span>90%</span></li>
+                            <li style="padding-right:25px"><img src="img/aboutMe4.jpg" alt="" id="percent"><span>90%</span></li>
+                            <li style="padding-right:25px"><img src="img/aboutMe5.jpg" alt="" id="percent"><span>70%</span></li>
+                            <li style="padding-right:25px"><img src="img/aboutMe6.jpg" alt="" id="percent"><span>60%</span></li>
+                            <li><img src="img/aboutMe7.jpg" alt="" id="percent"><span>90%</span></li>
+                        </ul>
+                    </div>
                     
                 </div>
                 
@@ -146,31 +148,48 @@
 
                 <div class="con4">
                     <div class="w3-row-padding">
-                        <div class="w3-container w3-third">
+                        <div class="w3-container w3-third out1">
                         <img src="img/modal1.jpg" style="width:100%;cursor:pointer" 
                         onclick="onClick(this)" class="w3-hover-opacity">
-                        
+                        <div class="middle">
+                            <div class="out"><h1>'제주도 디저트 카페' <br> 포스터 디자인 </h1><br> <span>+</span></div>
                         </div>
-                        <div class="w3-container w3-third">
+                        </div>
+                        <div class="w3-container w3-third out1">
                         <img src="img/modal2.jpg" style="width:100%;cursor:pointer" 
                         onclick="onClick(this)" class="w3-hover-opacity">
+                        <div class="middle">
+                            <div class="out"><h1>'홈화면 말고, 진짜 홈으로' <br> 공익광고 디자인 </h1><br> <span>+</span></div>
                         </div>
-                        <div class="w3-container w3-third">
+                        </div>
+                        <div class="w3-container w3-third out1">
                         <img src="img/modal3.jpg" style="width:100%;cursor:pointer" 
                         onclick="onClick(this)" class="w3-hover-opacity">
+                        <div class="middle">
+                            <div class="out"><h1>'코튼향 핸드크림' <br> 패키지 디자인 </h1><br> <span>+</span></div>
+                        </div>
                         </div>
 
-                        <div class="w3-container w3-third more2">
+                        <div class="w3-container w3-third more2 out1">
                             <img src="img/modal4.jpg" style="width:100%;cursor:pointer" 
                             onclick="onClick(this)" class="w3-hover-opacity">
+                            <div class="middle">
+                                <div class="out"><h1>'울트라 히알론 크림' <br> 제품 광고 포스터 디자인 </h1><br> <span>+</span></div>
+                            </div>
                         </div>
-                        <div class="w3-container w3-third more2">
+                        <div class="w3-container w3-third more2 out1">
                             <img src="img/modal5.jpg" style="width:100%;cursor:pointer" 
                             onclick="onClick(this)" class="w3-hover-opacity">
+                            <div class="middle">
+                                <div class="out"><h1>'부정승차' <br> 포스터 디자인 </h1><br> <span>+</span></div>
+                            </div>
                         </div>
-                        <div class="w3-container w3-third more2">
+                        <div class="w3-container w3-third more2 out1">
                             <img src="img/modal6.jpg" style="width:100%;cursor:pointer" 
                             onclick="onClick(this)" class="w3-hover-opacity">
+                            <div class="middle">
+                                <div class="out"><h1>'크린토피아' <br> 로고 리디자인 </h1><br> <span>+</span></div>
+                            </div>
                         </div>
                     </div>
                     
@@ -178,21 +197,15 @@
                         <span class="w3-button w3-hover-red w3-display-topright">&times;</span>
                         <div class="w3-modal-content w3-animate-zoom">
                             <img id="img01" style="width:100%; border: none;">
-    
-                        </div>
 
+                        </div>
                     </div>
 
-                    
-                    
                     <script>
                     function onClick(element) {
                         document.getElementById("img01").src = element.src;
                         document.getElementById("modal01").style.display = "block";
-
-
                     }
-                    
                     </script>
 
                 </div>

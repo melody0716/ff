@@ -1,7 +1,14 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
-@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css)
-body {margin: 0;
-    padding: 0; font-family: 'NanumSquare'; max-width: 720px;}
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'NanumSquare'; 
+    max-width: 720px; 
+    margin: 0 auto;}
+
     #mainVisual {
         position: relative;;
         top: 0;
@@ -143,29 +150,29 @@ body {margin: 0;
 
 	/* input에 체크되면 텍스트 효과 */
 	.section input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.3s; 
-        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: '나눔스퀘어'; font-weight: 600; margin-top: 30px;}
+        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: 'NanumSquare'; font-weight: 600; margin-top: 30px;}
 	.section input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox p {opacity:1;transform:translateY(0);transition-delay:.3s;
-        color: rgb(20, 20, 20); font-size: 26pt; font-family: '나눔스퀘어'; font-weight: 600;}
+        color: rgb(20, 20, 20); font-size: 26pt; font-family: 'NanumSquare'; font-weight: 600;}
 	.section input[id="slide02"]:checked ~ .slidewrap li:nth-child(2) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.3s;
-        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: '나눔스퀘어'; font-weight: 600; margin-top: 30px;}
+        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: 'NanumSquare'; font-weight: 600; margin-top: 30px;}
 	.section input[id="slide02"]:checked ~ .slidewrap li:nth-child(2) .textbox p {opacity:1;transform:translateY(0);transition-delay:.3s;
-        color: rgb(20, 20, 20); font-size: 26pt; font-family: '나눔스퀘어'; font-weight: 600;}
+        color: rgb(20, 20, 20); font-size: 26pt; font-family: 'NanumSquare'; font-weight: 600;}
 	.section input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.3s;
-        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: '나눔스퀘어'; font-weight: 600; margin-top: 30px;}
+        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: 'NanumSquare'; font-weight: 600; margin-top: 30px;}
 	.section input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .textbox p {opacity:1;transform:translateY(0);transition-delay:.3s;
-        color: rgb(20, 20, 20); font-size: 26pt; font-family: '나눔스퀘어'; font-weight: 600;}
+        color: rgb(20, 20, 20); font-size: 26pt; font-family: 'NanumSquare';font-weight: 600;}
 	.section input[id="slide04"]:checked ~ .slidewrap li:nth-child(4) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.3s;
-        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: '나눔스퀘어'; font-weight: 600; margin-top: 30px;}
+        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: 'NanumSquare'; font-weight: 600; margin-top: 30px;}
 	.section input[id="slide04"]:checked ~ .slidewrap li:nth-child(4) .textbox p {opacity:1;transform:translateY(0);transition-delay:.3s;
-        color: rgb(20, 20, 20); font-size: 26pt; font-family: '나눔스퀘어'; font-weight: 600;}
+        color: rgb(20, 20, 20); font-size: 26pt; font-family: 'NanumSquare'; font-weight: 600;}
 	.section input[id="slide05"]:checked ~ .slidewrap li:nth-child(5) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.3s;
-        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: '나눔스퀘어'; font-weight: 600; margin-top: 30px;}
+        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: 'NanumSquare'; font-weight: 600; margin-top: 30px;}
 	.section input[id="slide05"]:checked ~ .slidewrap li:nth-child(5) .textbox p {opacity:1;transform:translateY(0);transition-delay:.3s;
-        color: rgb(20, 20, 20); font-size: 26pt; font-family: '나눔스퀘어'; font-weight: 600;}
+        color: rgb(20, 20, 20); font-size: 26pt; font-family: 'NanumSquare'; font-weight: 600;}
 	.section input[id="slide06"]:checked ~ .slidewrap li:nth-child(6) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.3s;
-        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: '나눔스퀘어'; font-weight: 600; margin-top: 30px;}
+        padding-top: 450px; color: #9a3030; font-size: 17pt; font-family: 'NanumSquare'; font-weight: 600; margin-top: 30px;}
 	.section input[id="slide06"]:checked ~ .slidewrap li:nth-child(6) .textbox p {opacity:1;transform:translateY(0);transition-delay:.3s;
-        color: rgb(20, 20, 20); font-size: 26pt; font-family: '나눔스퀘어'; font-weight: 600;}
+        color: rgb(20, 20, 20); font-size: 26pt; font-family: 'NanumSquare'; font-weight: 600;}
 
 	/* 좌,우 슬라이드 버튼 */
 	.slide-control > div {display:none;}
@@ -258,7 +265,7 @@ body {margin: 0;
     }
     .scroll li h1 {
         font-size: 20pt;
-        font-family: '나눔스퀘어';
+        font-family: 'NanumSquare';
         font-weight: 600;
         margin-bottom: 8px;
         color: #9a3030;
@@ -321,7 +328,7 @@ body {margin: 0;
           margin: 0 auto;
           text-align: center;
           font-size: 30pt;
-          font-family: '나눔스퀘어';
+          font-family: 'NanumSquare';
           color: #410d0d;
           font-weight: bold;
           margin-top: 25px;
@@ -338,6 +345,7 @@ body {margin: 0;
       }
 
       .con3 {
+        font-family: 'NanumSquare';
           background-color: #f3f3f3;
           margin: 0 auto;
           width: 100%;
@@ -359,7 +367,7 @@ body {margin: 0;
       .con3 h1 {
           font-size: 33pt;
           font-weight: 600;
-          font-family: '나눔스퀘어';
+          font-family: 'NanumSquare';
           line-height: 45px;
           margin-top: 1px;
           
@@ -367,7 +375,7 @@ body {margin: 0;
       .con3 h2 {
         font-size: 33pt;
         font-weight: 600;
-        font-family: '나눔스퀘어';
+        font-family: 'NanumSquare';
         line-height: 43px;
         margin-bottom: 40px;
 
@@ -395,7 +403,7 @@ body {margin: 0;
     font-size: 20pt;
     font-weight: 500;
     text-align: center;
-    font-family: '나눔스퀘어';
+    font-family: 'NanumSquare';
     line-height: 38px;
     margin-top: 50px;
 
@@ -404,7 +412,7 @@ body {margin: 0;
     font-size: 20pt;
     font-weight: 600;
     text-align: center;
-    font-family: '나눔스퀘어';
+    font-family: 'NanumSquare';
     color: #9a3030;}
 
     #con4Video p {

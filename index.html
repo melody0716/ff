@@ -14,6 +14,29 @@
 </head>
 <body>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 
 <!-- ------------------------- main ------------------------------>
 
@@ -80,7 +103,7 @@
                 </div>
                 <div class="web">
                     <a href="sub/sub1.html"><img src="img/web1.png" alt="" class="con2_fisrt" id="web1"></a>
-                    <a href=""><img src="img/web2.png" alt="" class="con2_n1" id="web1"></a>
+                    <a href="sub/sub2.html"><img src="img/web2.png" alt="" class="con2_n1" id="web1"></a>
                     <a href="sub/sub3.html"><img src="img/web3.png" alt="" class="con2_n2" id="web1"></a>
                     <a href="sub/sub4.html"><img src="img/web4.png" alt="" class="con2_n3" id="web1"></a>
                 </div>
@@ -124,46 +147,47 @@
                 <div class="con4">
                     <div class="w3-row-padding">
                         <div class="w3-container w3-third">
-                          <img src="img/modal1.jpg"" style="width:100%;cursor:pointer" 
-                          onclick="onClick(this)" class="w3-hover-opacity">
-                          
+                        <img src="img/modal1.jpg" style="width:100%;cursor:pointer" 
+                        onclick="onClick(this)" class="w3-hover-opacity">
+                        
                         </div>
                         <div class="w3-container w3-third">
-                          <img src="img/modal2.jpg"" style="width:100%;cursor:pointer" 
-                          onclick="onClick(this)" class="w3-hover-opacity">
+                        <img src="img/modal2.jpg" style="width:100%;cursor:pointer" 
+                        onclick="onClick(this)" class="w3-hover-opacity">
                         </div>
                         <div class="w3-container w3-third">
-                          <img src="img/modal3.jpg"" style="width:100%;cursor:pointer" 
-                          onclick="onClick(this)" class="w3-hover-opacity">
+                        <img src="img/modal3.jpg" style="width:100%;cursor:pointer" 
+                        onclick="onClick(this)" class="w3-hover-opacity">
                         </div>
 
                         <div class="w3-container w3-third more2">
-                            <img src="img/modal4.jpg"" style="width:100%;cursor:pointer" 
+                            <img src="img/modal4.jpg" style="width:100%;cursor:pointer" 
                             onclick="onClick(this)" class="w3-hover-opacity">
-                          </div>
-                          <div class="w3-container w3-third more2">
-                            <img src="img/modal5.jpg"" style="width:100%;cursor:pointer" 
+                        </div>
+                        <div class="w3-container w3-third more2">
+                            <img src="img/modal5.jpg" style="width:100%;cursor:pointer" 
                             onclick="onClick(this)" class="w3-hover-opacity">
-                          </div>
-                          <div class="w3-container w3-third more2">
-                            <img src="img/modal6.jpg"" style="width:100%;cursor:pointer" 
+                        </div>
+                        <div class="w3-container w3-third more2">
+                            <img src="img/modal6.jpg" style="width:100%;cursor:pointer" 
                             onclick="onClick(this)" class="w3-hover-opacity">
-                          </div>
-                      </div>
-                      
-                      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
                         <span class="w3-button w3-hover-red w3-display-topright">&times;</span>
                         <div class="w3-modal-content w3-animate-zoom">
-                          <img id="img01" style="width:110%;">
+                            <img id="img01" style="width:110%; border: none;">
                         </div>
-                      </div>
-                      
-                      <script>
-                      function onClick(element) {
+                        
+                    </div>
+                    
+                    <script>
+                    function onClick(element) {
                         document.getElementById("img01").src = element.src;
                         document.getElementById("modal01").style.display = "block";
-                      }
-                      </script>
+                    }
+                    </script>
                     <!-- <div class="more1">
                         <img src="img/modal1.jpg" style="width:100%;cursor:pointer" 
                         onclick="onClick(this)" class="w3-hover-opacity">

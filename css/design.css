@@ -549,8 +549,19 @@ opacity: 5;}
 
 }
 .modal1 {
+    text-align: center;
+    margin: 0 auto;
     
 }
+.modal1 h1 {
+    margin-top: 10px;
+    font-size: 15pt;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    width: 100%;
+}
+
 /* ------------------ modal -------------------*/
 
 /* ------------------ footer -------------------*/
